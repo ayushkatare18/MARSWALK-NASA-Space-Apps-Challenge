@@ -1,0 +1,51 @@
+MARSWALK — JEZERO TERRAIN DATASET
+
+PRIMARY DATASET
+Name: JEZ_hirise_soc_006_DTM_MOLAtopography_DeltaGeoid_1m_Eqc_latTs0_lon0_blend40
+Source: USGS / NASA HiRISE
+Type: Digital Terrain Model
+Format: GeoTIFF
+Resolution: 1 metre per pixel
+Dimensions: 21400 × 21488
+Bands: 1
+Data type: Float32
+File size: 1.71 GB
+
+COORDINATE REFERENCE SYSTEM
+Name: Mars_2000_Equidistant_Cylindrical_sphere
+EPSG/ESRI identifier: ESRI:103885
+Units: Metres
+Projected CRS
+
+SPATIAL EXTENT
+X: 4577366 to 4598766
+Y: 1085130 to 1106618
+
+ELEVATION STATISTICS
+Minimum: -2665.0706 m
+Maximum: -1644.3058 m
+Mean: -2419.9783 m
+Standard deviation: 215.6865 m
+Valid coverage: 65.73%
+
+ORIGINAL DEM NODATA
+-3.40282e+38
+
+DERIVED SLOPE DATASET
+Filename: jezero_slope.tif
+Resolution: 1 metre
+Units: Degrees
+Minimum: 0°
+Maximum: 70.2475°
+Mean: 6.9657°
+Standard deviation: 6.1176°
+Valid coverage: 65.73%
+NoData: -9999
+
+PROCESSING REQUIREMENTS
+- Preserve original source datasets.
+- Respect NoData pixels.
+- Preserve coordinate reference systems.
+- Do not interpret RGB imagery as elevation.
+- Document every derived dataset and processing operation.
+- All distance calculations must use appropriate Mars projected coordinates.
